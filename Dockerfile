@@ -4,7 +4,7 @@ MAINTAINER Geshan Manandhar (http://geshan.com.np)
 MAINTAINER Shahar Levin
 
 RUN apk add --no-cache curl rsync openssh &&\
-    apk add python py-jinja2 \
+    apk add python py-jinja2  &&\
     apk add --no-cache fabric --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ --allow-untrusted
 
 WORKDIR /app
